@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 3797954906319905153}
   - component: {fileID: 3643503433089072790}
   - component: {fileID: 8956934361899828304}
+  - component: {fileID: 4445990363267722045}
+  - component: {fileID: -4206841865846816775}
   m_Layer: 0
   m_Name: Food_Bone
   m_TagString: Untagged
@@ -110,3 +112,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ba8c982f8df6ca4d95f5b57ffddd4ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &4445990363267722045
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5344386720055249978}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &-4206841865846816775
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5344386720055249978}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6528888, y: 0.12128267, z: 0.29866806}
+  m_Center: {x: 0, y: 0.060641333, z: 0}
